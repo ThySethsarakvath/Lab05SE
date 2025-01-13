@@ -12,7 +12,7 @@ public class subject {
         return credits;
     }
     public void setName(String name) {
-        if(name ==null || name.isEmpty()){
+        if(name == null || name.isEmpty()) {
             throw new IllegalArgumentException();
         }
         this.name = name;
@@ -23,8 +23,8 @@ public class subject {
     @Override
     public String toString() {
         return "Subject{" +
-                "name='" + name + '\'' +
-                ", credits=" + credits +
+                "name =" + name + '\'' +
+                ", credits =" + credits +
                 '}';
     }
 }
